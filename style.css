@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #242424;
+    /*height: 100vh;*/
+}
+
+textarea {
+    padding: 4px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.p-style {
+    /*text-decoration: white solid underline;*/
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 6px;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: #5fb9e6;
+}
+
+[type="button"] {
+    margin-top: 16px;
+}
+
+ul li a:hover {
+    color: skyblue;
+}
+
+@media (min-width: 768px) {
+    #responsive-textarea {
+        width: 90%; /* Adjust the width as needed */
+        max-width: 800px; /* You can adjust this value to control the maximum width */
+    }
+}
+
+.policy {
+    padding: 0 30px;
+}
+
+div > * {
+    padding: 12px;
+}
+
+div p:last-child {
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 19px;
+}
